@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:weightSum="7">
+
+    <ImageView
+        android:id="@+id/imageView_welpic"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/chat" 
+        android:contentDescription="@string/welcomepic"
+        android:onClick="propertyValuesHolder0"
+        android:layout_weight="3"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_weight="3" >
+
+        <ImageView
+            android:id="@+id/imageView_welleft"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@anim/hello_pic_left"
+            android:scaleType="fitStart"
+        	android:contentDescription="@string/welcomepic" />
+
+        <ImageView
+            android:id="@+id/imageView_welright"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@anim/hello_pic_right"
+            android:scaleType="fitEnd"
+        	android:contentDescription="@string/welcomepic" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skip"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_gravity="end"
+        android:onClick="skip"
+        android:layout_weight="1"/>
+
+</LinearLayout>

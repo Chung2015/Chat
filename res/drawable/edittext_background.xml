@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 圆角 -->
+    <corners 
+        android:radius="@dimen/radius_edittext"/>
+    <!-- www.cnblogs.com/cyanfei/archive/2012/07/27/2612023.html -->
+    <stroke 
+        android:width="@dimen/stroke_edittext"
+        android:color="@android:color/black"
+        android:dashWidth="1dp"		
+        android:dashGap="2dp"/>		<!-- dashWidth虚线宽度 -->	<!-- dashGap虚线的间隔宽度 -->
+
+</shape>

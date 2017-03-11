@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group 
+        android:id="@+id/menuGroup_add_friend">
+        <item
+            android:id="@+id/popmenu_add"
+            android:orderInCategory="4"
+            android:title="@string/add_friend"/>
+    </group>
+
+</menu>

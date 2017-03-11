@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ChungChat</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_welcome">澄Chat</string>
+    <string name="title_activity_chat">Chat</string>
+    <string name="input_text_hint">聊点什么吧</string>
+    <string name="send">发送</string>
+    <string name="set_ip">完成</string>
+    <string name="hint_ip">请输入好友ip地址</string>
+    <string name="title_activity_about">关于</string>
+    <string name="friend_name">给好友加个备注名吧</string>
+    <string name="title_activity_main">澄Chat</string>
+    <string name="add_friend">添加</string>
+    <string name="update_friend">修改</string>
+    <string name="delete_friend">清空</string>
+    <string name="new_a_talk_team">群组</string>
+    <string name="look_record">查看聊天记录</string>
+    <string name="title_activity_record">聊天记录</string>
+    <string name="ipmao">ip:</string>
+    <string name="idmao">id:</string>
+    <string name="delete_a_friend">删除</string>
+    <string name="welcomepic">chatpic</string>
+    <string name="skip">进入主界面</string>
+    <string name="title_activity_log_reg">LogActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="account">账--号：</string>
+    <string name="username">用户名：</string>
+    <string name="password">密**码：</string>
+    <string name="account_hint">账号-用于登录</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="username_hint">用户名-用于他人识别</string>
+    <string name="remember_password">记住密码</string>
+    <string name="add_friend_hint">要添加的好友名字</string>
+    <string name="commit">完成</string>
+    <string name="search">搜索</string>
+    <string name="refresh">刷新</string>
+    <string name="title_activity_add_friend">AddFriendActivity</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="send_msg">#FFD172</color>
+    <color name="receiver_msg">#89FFF1</color>
+    <color name="reg_fragment_bgc">#FFDAEC</color>
+    <color name="log_fragment_bgc">#C2FFF7</color>
+    <color name="ip">#4A4A4A</color>
+    
+</resources>
